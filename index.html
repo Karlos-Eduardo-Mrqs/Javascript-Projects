@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- Estilo Personalizado -->
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/LogoGitAproximada.png" sizes="128x128" >
 </head>
 <body>
     <!-- Header -->
@@ -61,18 +62,24 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="images/todo-list.jpg" alt="To-Do List">
+                                <img src="images/ToDoList.png" alt="To-Do List">
                             </figure>
                         </div>
                         <div class="card-content">
                             <h3 class="title is-4">To-Do List</h3>
                             <p class="content">
-                                Uma aplicação simples para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir itens.
+                                Uma aplicação simples para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir .
                             </p>
-                            <a href="https://github.com/seuusuario/to-do-list" target="_blank" class="button is-primary is-fullwidth">
-                                <span class="icon"><i class="fa-brands fa-github"></i></span>
-                                <span>Ver Código</span>
-                            </a>
+                            <div class="buttons is-centered">
+                                <a href="https://github.com/Karlos-Eduardo-Mrqs/Construction-Html-Css-Javascript/tree/main/Version%20EUA/Interaction-Javascript/Module%206%20-%20DOM/Pratice_Manipulation-Number_16/To%20Do%20List" target="_blank" class="button is-primary">
+                                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                                    <span>Ver Código</span>
+                                </a>
+                                <a href="projetos/To Do List/index.html" target="_blank" class="button is-info">
+                                    <span class="icon"><i class="fa-solid fa-eye"></i></span>
+                                    <span>Ver Projeto</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -82,7 +89,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="images/relogio.jpg" alt="Relógio Dinâmico">
+                                <img src="images/RelogioDinamico.png" alt="Relógio Dinâmico">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -90,10 +97,16 @@
                             <p class="content">
                                 Um relógio digital que exibe a hora atual em tempo real com animações suaves.
                             </p>
-                            <a href="https://github.com/seuusuario/relogio-dinamico" target="_blank" class="button is-primary is-fullwidth">
-                                <span class="icon"><i class="fa-brands fa-github"></i></span>
-                                <span>Ver Código</span>
-                            </a>
+                            <div class="buttons is-centered">
+                                <a href="https://github.com/Karlos-Eduardo-Mrqs/Construction-Html-Css-Javascript/tree/main/Version%20EUA/Interaction-Javascript/Module%206%20-%20DOM/Pratice_Manipulation-Number_16/Dinamic%20Clock" target="_blank" class="button is-primary">
+                                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                                    <span>Ver Código</span>
+                                </a>
+                                <a href="projetos/Dinamic Clock/index.html" target="_blank" class="button is-info">
+                                    <span class="icon"><i class="fa-solid fa-eye"></i></span>
+                                    <span>Ver Projeto</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -103,7 +116,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="images/form-validation.jpg" alt="Formulário de Validação">
+                                <img src="images/ValidarFormulario.png" alt="Formulário de Validação">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -111,10 +124,16 @@
                             <p class="content">
                                 Um formulário com validação em tempo real para garantir que os dados inseridos sejam corretos.
                             </p>
-                            <a href="https://github.com/seuusuario/form-validation" target="_blank" class="button is-primary is-fullwidth">
-                                <span class="icon"><i class="fa-brands fa-github"></i></span>
-                                <span>Ver Código</span>
-                            </a>
+                            <div class="buttons is-centered">
+                                <a href="https://github.com/Karlos-Eduardo-Mrqs/Construction-Html-Css-Javascript/tree/main/Version%20EUA/Interaction-Javascript/Module%206%20-%20DOM/Pratice_Manipulation-Number_16/Validate%20Form" target="_blank" class="button is-primary">
+                                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                                    <span>Ver Código</span>
+                                </a>
+                                <a href="projetos/Validate Form/index.html" target="_blank" class="button is-info">
+                                    <span class="icon"><i class="fa-solid fa-eye"></i></span>
+                                    <span>Ver Projeto</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,45 +141,81 @@
         </div>
     </section>
 
-    <!-- Seção Contato -->
-    <section id="contato" class="section">
-        <div class="container">
-            <h2 class="title has-text-centered">Entre em Contato</h2>
-            <form id="contact-form" autocomplete="off" class="box">
-                <div class="field">
-                    <label class="label">Nome</label>
-                    <div class="control">
-                        <input type="text" class="input" placeholder="Seu Nome" required minlength="3">
+        <section id="contato" class="section"> <!-- Seção Contato -->
+            <div class="container">
+                <h2 class="title has-text-centered">Entre em Contato</h2>
+                <form id="contact-form" autocomplete="off" class="box">
+                    <div class="field">
+                        <label class="label">Nome</label>
+                        <div class="control">
+                            <input type="text" class="input" placeholder="Seu Nome" required minlength="3">
+                        </div>
                     </div>
-                </div>
-                <div class="field">
-                    <label class="label">E-mail</label>
-                    <div class="control">
-                        <input type="email" class="input" placeholder="Seu E-mail" required>
+                    <div class="field">
+                        <label class="label">E-mail</label>
+                        <div class="control">
+                            <input type="email" class="input" placeholder="Seu E-mail" required>
+                        </div>
                     </div>
-                </div>
-                <div class="field">
-                    <label class="label">Mensagem</label>
-                    <div class="control">
-                        <textarea class="textarea" placeholder="Sua Mensagem" required minlength="10"></textarea>
+                    <div class="field">
+                        <label class="label">Mensagem</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Sua Mensagem" required minlength="10"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="field is-grouped is-grouped-centered">
-                    <div class="control">
-                        <button type="submit" class="button is-primary">
-                            <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
-                            <span>Enviar</span>
-                        </button>
+                    <div class="field is-grouped is-grouped-centered">
+                        <div class="control">
+                            <button type="submit" class="button is-primary">
+                                <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+                                <span>Enviar</span>
+                            </button>
+                        </div>
                     </div>
-                </div>
-            </form>
-        </div>
-    </section>
+                </form>
+            </div>
+        </section>
+
 
     <!-- Footer -->
     <footer class="footer has-background-dark has-text-white">
-        <div class="content has-text-centered">
-            <p>&copy; 2023 - Todos os direitos reservados.</p>
+        <div class="container">
+            <!-- Direitos Autorais -->
+            <div class="content has-text-centered">
+                <p>&copy; Carlos Eduardo 2025 - Todos os direitos reservados.</p>
+            </div>
+    
+            <!-- Links de Contato -->
+            <div class="columns is-mobile is-centered has-text-centered mt-4">
+                <!-- GitHub -->
+                <div class="column is-narrow">
+                    <a href="https://github.com/karlos-eduardo-mrqs" target="_blank" class="contact-link">
+                        <span class="icon is-large has-text-white">
+                            <i class="fa-brands fa-github fa-2x"></i>
+                        </span>
+                        <span class="contact-text has-text-white">GitHub</span>
+                    </a>
+                </div>
+    
+                <!-- Instagram -->
+                <div class="column is-narrow">
+                    <a href="https://www.instagram.com/seuusuario" target="_blank" class="contact-link">
+                        <span class="icon is-large has-text-white">
+                            <i class="fa-brands fa-instagram fa-2x"></i>
+                        </span>
+                        <span class="contact-text has-text-white">Instagram</span>
+                    </a>
+                </div>
+    
+                <!-- E-mail -->
+                <div class="column is-narrow">
+                    <a href="mailto:cadumcarlos@gmail.com" class="contact-link">
+                        <span class="icon is-large has-text-white">
+                            <i class="fa-solid fa-envelope fa-2x"></i>
+                        </span>
+                        <span class="contact-text has-text-white">E-mail</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
 
