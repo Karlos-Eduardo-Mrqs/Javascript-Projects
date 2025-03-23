@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Estilo global */
 body {
   font-family: Arial, sans-serif;
@@ -219,7 +223,30 @@ body {
   padding-bottom: 6rem;
 }
 
-/* Animação suave ao rolar */
-html {
-  scroll-behavior: smooth;
+/* Estilo do popup */
+.popup {
+  display: none; /* Oculto por padrão */
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popup p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.popup.success {
+  border: 2px solid #28a745; /* Verde para sucesso */
+}
+
+.popup.error {
+  border: 2px solid #dc3545; /* Vermelho para erro */
 }
