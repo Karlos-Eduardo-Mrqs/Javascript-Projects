@@ -1,5 +1,7 @@
 # 🚀 Meus Projetos Front-End(Versão_BR)
-Explore meus projetos front-end e entre em contato para colaborações.
+Explore meus projetos front-end e entre em contato para colaborações. Essa página tem relação com o repósitorio Construction-Html-Css-Javascript, onde todos os projetos realizados no módulo 6 em javascript, serão disponibilizados aqui !
+
+**[Link de acesso para a página !](https://karlos-eduardo-mrqs.github.io/Projects-In-Javascript/)**
 
 ## 📋 Estrutura da Página
 ### 1. Cabeçalho
@@ -62,7 +64,9 @@ Este portfólio foi criado para demonstrar as habilidades de **Carlos Eduardo** 
 
 --- 
 # 🚀 My Front-End Projects (Version_EUA)
-Explore my front-end projects and get in touch for collaborations.
+Explore my front-end projects and get in touch for collaborations. This page is related to the Construction-Html-Css-Javascript repository, where all projects from Module 6 in JavaScript will be made available here!
+
+**[Access the page !](https://karlos-eduardo-mrqs.github.io/Projects-In-Javascript/)**
 
 ## 📋 Page Structure
 
