@@ -1,0 +1,156 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo global */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header */
+  .hero.is-primary {
+    background: linear-gradient(135deg, #2a2a72, #009ffd);
+  }
+  
+  .hero .title {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .hero .subtitle {
+    font-size: 1.2rem;
+    color: #eaeaea;
+  }
+  
+  /* Imagem de perfil */
+  .image.is-3by4 {
+    margin: 0 auto;
+  }
+  
+  .box-shadow {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .box-shadow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Seção Sobre Mim */
+  #sobre-mim .title.is-3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  #sobre-mim .content {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  #sobre-mim .button.is-primary.is-rounded {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #sobre-mim .button.is-primary.is-rounded:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Seção Propósito */
+  #proposito {
+    padding: 4rem 0;
+  }
+  
+  #proposito .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  #proposito .content {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilo da seção de contatos */
+.contacts {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+  }
+  
+  .contacts .title.is-4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  /* Layout dos links */
+  .contacts .columns {
+    gap: 2rem;
+  }
+  
+  .contact-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #007bff;
+    transform: scale(1.1);
+  }
+  
+  .contact-link .icon {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-link .icon i {
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover .icon i {
+    color: #009ffd;
+  }
+  
+  .contact-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 2rem 0;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+  
+  /* Espaçamento entre seções */
+  .section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  /* Animação suave ao rolar */
+  html {
+    scroll-behavior: smooth;
+  }

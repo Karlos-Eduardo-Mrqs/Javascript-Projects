@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore meus projetos front-end e entre em contato para colaborações.">
+    <meta name="keywords" content="projetos front-end, desenvolvimento web, portfólio">
+    <meta name="author" content="Seu Nome">
+    <meta property="og:title" content="Meus Projetos Front-End">
+    <meta property="og:description" content="Uma coleção dos meus melhores projetos front-end.">
+    <meta property="og:image" content="images/destaque.jpg">
+    <title>Meus Projetos Front-End</title>
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Estilo Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero is-dark">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <!-- Logo no lado esquerdo -->
+                    <div class="navbar-brand">
+                        <a href="#" class="navbar-item">
+                            <span class="has-text-white ml-2 is-size-5 has-text-weight-bold">Meus Projetos</span>
+                        </a>
+                    </div>
+
+                    <!-- Links de navegação no lado direito -->
+                    <div class="navbar-menu">
+                        <div class="navbar-end">
+                            <a href="sobre/index.html" class="navbar-item has-text-white">Sobre</a>
+                            <a href="#projetos" class="navbar-item has-text-white">Projetos</a>
+                            <a href="#contato" class="navbar-item has-text-white">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Título principal -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Meus Projetos Front-End</h1>
+                <p class="subtitle">Uma coleção dos meus melhores projetos desenvolvidos com tecnologias front-end.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2 class="title has-text-centered mb-5">Meus Projetos</h2>
+            <div class="columns is-multiline">
+                <!-- Projeto 1: To-Do List -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images/todo-list.jpg" alt="To-Do List">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-4">To-Do List</h3>
+                            <p class="content">
+                                Uma aplicação simples para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir itens.
+                            </p>
+                            <a href="https://github.com/seuusuario/to-do-list" target="_blank" class="button is-primary is-fullwidth">
+                                <span class="icon"><i class="fa-brands fa-github"></i></span>
+                                <span>Ver Código</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2: Relógio Dinâmico -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images/relogio.jpg" alt="Relógio Dinâmico">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-4">Relógio Dinâmico</h3>
+                            <p class="content">
+                                Um relógio digital que exibe a hora atual em tempo real com animações suaves.
+                            </p>
+                            <a href="https://github.com/seuusuario/relogio-dinamico" target="_blank" class="button is-primary is-fullwidth">
+                                <span class="icon"><i class="fa-brands fa-github"></i></span>
+                                <span>Ver Código</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3: Formulário de Validação -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images/form-validation.jpg" alt="Formulário de Validação">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-4">Formulário de Validação</h3>
+                            <p class="content">
+                                Um formulário com validação em tempo real para garantir que os dados inseridos sejam corretos.
+                            </p>
+                            <a href="https://github.com/seuusuario/form-validation" target="_blank" class="button is-primary is-fullwidth">
+                                <span class="icon"><i class="fa-brands fa-github"></i></span>
+                                <span>Ver Código</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Entre em Contato</h2>
+            <form id="contact-form" autocomplete="off" class="box">
+                <div class="field">
+                    <label class="label">Nome</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Seu Nome" required minlength="3">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">E-mail</label>
+                    <div class="control">
+                        <input type="email" class="input" placeholder="Seu E-mail" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Mensagem</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Sua Mensagem" required minlength="10"></textarea>
+                    </div>
+                </div>
+                <div class="field is-grouped is-grouped-centered">
+                    <div class="control">
+                        <button type="submit" class="button is-primary">
+                            <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+                            <span>Enviar</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer has-background-dark has-text-white">
+        <div class="content has-text-centered">
+            <p>&copy; 2023 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

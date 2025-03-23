@@ -1,0 +1,151 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo global da página */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+/* Estilo da Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-brand img:hover {
+    transform: scale(1.1);
+  }
+  
+  .navbar-item {
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item:hover {
+    color: #ffdd57; /* Amarelo suave para destaque */
+  }
+  
+  /* Espaçamento entre a navbar e o conteúdo principal */
+  .hero-body {
+    padding-top: 4rem;
+  }
+  
+  /* Cor de fundo do hero */
+  .hero.is-dark {
+    background: linear-gradient(135deg, #2a2a72, #009ffd);
+  }
+  
+  .hero .container ul {
+    gap: 1rem;
+  }
+  
+  .hero .container ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .hero .container ul li a:hover {
+    color: #ffdd57;
+  }
+
+  /* Seção Sobre */
+  #sobre {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  #sobre .subtitle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Seção Projetos */
+  #projetos {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+  }
+  
+  #projetos .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #projetos .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #projetos .card-image img {
+    object-fit: cover;
+  }
+  
+  #projetos .button {
+    transition: background-color 0.3s ease;
+  }
+  
+  #projetos .button:hover {
+    background-color: #007bff;
+  }
+  
+  /* Seção Contato */
+  #contato {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  #contato .box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contato .label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #contato .button {
+    transition: background-color 0.3s ease;
+  }
+  
+  #contato .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 2rem 0;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+  
+  /* Espaçamento entre seções */
+  .section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  /* Animação de hover nos links do menu */
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Adicionando ícones ao botão */
+  .button span.icon {
+    margin-right: 0.5rem;
+  }
