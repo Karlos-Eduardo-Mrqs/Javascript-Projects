@@ -2,7 +2,7 @@
 
 Explore my front-end projects and get in touch for collaborations. This page is related to the Construction-Html-Css-Javascript repository, where all projects from Module 6 in JavaScript will be made available here!
 
-**[Access the page !](https://karlos-eduardo-mrqs.github.io/Projects-In-Javascript/)**
+**[Access the page !](https://karlos-eduardo-mrqs.github.io/Javascript-Projects/)**
 
 ## 🌐 Avaible Languages
 
