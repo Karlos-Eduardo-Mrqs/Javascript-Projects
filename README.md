@@ -6,9 +6,11 @@ Explore my front-end projects and get in touch for collaborations. This page is 
 
 ## 🌐 Avaible Languages
 
-- **[US American Version _current_](https://github.com/Karlos-Eduardo-Mrqs/Javascript-Projects/blob/main/README.md)**
+- **[US American Version *](https://github.com/Karlos-Eduardo-Mrqs/Javascript-Projects/blob/main/README.md)**
 
 - **[BR Brasilian Version](https://github.com/Karlos-Eduardo-Mrqs/Javascript-Projects/blob/main/README-BR.md)**
+
+- **[ES Spanish Version](https://github.com/Karlos-Eduardo-Mrqs/Javascript-Projects/blob/main/README-ES.md)**
 
 ## 📋 Page Structure
 
